@@ -1,0 +1,6 @@
+{{_title(title)}}
+
+
+{% for item in posts %}
+* `{{item.title}} -- {{item.date}} <{{item.url}}>`__
+{% endfor %}
